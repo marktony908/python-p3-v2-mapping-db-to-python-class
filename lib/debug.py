@@ -2,6 +2,9 @@ from __init__ import CONN, CURSOR
 from department import Department
 
 import ipdb
+ipdb> Department.get_all()
+ipdb> Department.find_by_id(1)
+ipdb> Department.find_by_name("Payroll")
 
 
 def reset_database():
